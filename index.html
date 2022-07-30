@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="mediumstyle.css" />
+    <script defer src="validation.js"></script>
+
+    <title>Sign Up Form</title>
+  </head>
+  <body>
+    <h1>Form Validation</h1>
+    <form id="myForm">
+      <div class="input-control">
+        <input id="name" type="text" name="name" placeholder="name" />
+        <div class="error"></div>
+      </div>
+      <div class="input-control">
+        <input
+          id="email"
+          type="email"
+          name="email"
+          type="text"
+          placeholder="email"
+        />
+        <div class="error"></div>
+      </div>
+      <div class="input-control">
+        <input
+          id="password"
+          type="password"
+          name="password"
+          placeholder="password"
+        />
+        <div class="error"></div>
+      </div>
+      <!-- <div class="form-control">
+        <input id="aboutme" type="text" name="aboutme" placeholder="about me">
+        <div class="error" id="textError"></div>
+      </div>
+     <div class="form-control">
+      <input id="robot" type="text" name="robot" placeholder="robot check">
+      <div class="error" id="robotError"></div>
+     </div> -->
+      <div>
+        <input type="submit" name="Submit" />
+      </div>
+    </form>
+  </body>
+</html>
