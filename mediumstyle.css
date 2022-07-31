@@ -19,31 +19,8 @@ input {
   font-size: inherit;
 }
 
-input[type="text"] {
-  display: block;
-  margin-bottom: 5px;
-  width: 100%;
-  border: 2px solid rgb(61, 109, 148);
-  background: rgb(251, 251, 233);
-}
 
-input[type="password"] {
-  display: block;
-  margin-bottom: 5px;
-  width: 100%;
-  border: 2px solid rgb(61, 109, 148);
-  background: rgb(251, 251, 233);
-}
-
-input[type="email"] {
-  display: block;
-  margin-bottom: 5px;
-  width: 100%;
-  border: 2px solid rgb(61, 109, 148);
-  background: rgb(251, 251, 233);
-}
-
-input[type="submit"] {
+button {
   width: 355px;
   height: 45px;
   background: rgb(109, 154, 190);
@@ -51,7 +28,7 @@ input[type="submit"] {
   border: none;
 }
 
-input[type="submit"]:hover {
+button:hover {
   width: 355px;
   height: 45px;
   margin-bottom: 5px;
@@ -66,10 +43,13 @@ input[type="submit"]:hover {
   display: block;
   font-size: 12px;
   width: 100%;
+  background: rgb(251, 251, 233);
+  margin-bottom: 5px;
 }
 
 .input-control input:focus {
   outline: 0;
+  
 }
 
 .input-control {
@@ -79,20 +59,19 @@ input[type="submit"]:hover {
 }
 .input-control.success input {
   border-color: rgb(28, 183, 28);
-  padding: 0;
-  width: 100%;
+  
+  
 }
 
 .input-control.error input {
   border-color: rgb(230, 92, 92);
-  padding: 0;
-  width: 100%;
+  
 }
 
 .input-control .error {
   color: rgb(236, 54, 54);
   font-size: 17px;
   height: 25px;
-  width: 100%;
+  
 }
 /* ---------------------------------------- */
